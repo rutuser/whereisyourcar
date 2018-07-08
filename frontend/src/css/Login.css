@@ -1,0 +1,25 @@
+html, body {
+   overflow: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.page {
+   display: flex;
+   width: 100vw;
+   height: 98.3vh;
+   background-color: RGBA(220, 220, 220, 0.5);
+   justify-content: center;
+   align-items: center;
+}
+
+.login {
+   text-align: center;
+   background: white;
+   width: 30em;
+   height: 15em;
+}
